@@ -1,0 +1,166 @@
+
+/* HEADER */
+
+#header {
+    display: flex;
+}
+
+#headerLeft {
+    float: left;
+    width: 50vw;
+}
+
+#headerRight {
+    float: right;
+    text-align: right;
+    width: 50vw;
+}
+
+.glink {
+    text-decoration: none;
+    color: #4f4f4f;
+    font-size: small;
+    padding-left: 15px;
+}
+
+.glink:hover {
+    text-decoration: underline;
+}
+
+#appTiles {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.loginButton {
+    background-color: #4583eb;
+    width: 89px;
+    height: 15px;
+    padding: 7px;
+    border-radius: 2px;
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#footerTop {
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+#footerTop:hover {
+    text-decoration: none;
+}
+
+#footerBottom {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#footerLeft {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 50vw;
+    margin-bottom: 15px;
+}
+
+#footerRight {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    text-align: right;
+    right: 0;
+    position: fixed;
+    width:auto;   
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+/* BODY */
+
+#centerpiece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    flex-direction: column;
+}
+
+#searchBarDiv {
+    margin-top: 32px;
+    width: 582px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+}
+
+#searchBarDiv:hover {
+    box-shadow: 0 0 4px 2px #dfe1e5;
+}
+
+#searchBar {
+    width: 527px;
+    height: 34px;
+    border-style:hidden;
+    margin-right:10px
+}
+
+#searchImage {
+    width: 20px;
+    height: 20px;
+    margin:auto;
+}
+
+#searchButtonDiv {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;    
+}
+
+#infoLink {
+    font-size: small;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+}
+
+#infoLink:hover {
+    text-decoration: underline;
+}
+
+.searchButton {
+    background-color: #f3f3f3;
+    height: 36px;
+    width: 122px;
+    border: hidden;
+    border-radius: 5px;
+    color: #5f6368;
+    margin: 5px;
+}
+.searchButton:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
